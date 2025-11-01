@@ -1,4 +1,4 @@
-# STM32F103_BUTTON_SERVO
+# STM32F103_SERVO_BUTTON_CONTROL
 
 Bu projede **STM32F103C8T6** mikrodenetleyicisi kullanılarak iki buton ile bir servo motorun PWM sinyal genişliği kontrol edilmiştir.  
 Servo motorun konumu **TIM1 CH2 (PA9)** pininden verilen PWM darbesinin genişliğinin artırılıp azaltılması ile ayarlanır.
@@ -47,3 +47,4 @@ HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
 
 uint16_t angle = 1500; // Başlangıç orta konum
 /* USER CODE END 2 */
+
