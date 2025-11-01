@@ -10,6 +10,14 @@ Darbe genişliği **500 ile 2500** arasında sınırlandırılmıştır.
 
 ---
 
+## Demo
+
+Aşağıdaki kısa video projeyi çalışırken göstermektedir:
+
+https://github.com/Percosh/stm32-servo-button-control/releases/download/v1.0/stm32-servo-button-control.mp4
+
+---
+
 ## ⚙️ Donanım Bilgileri
 
 | Bileşen | Pin / Model |
@@ -47,4 +55,5 @@ HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
 
 uint16_t angle = 1500; // Başlangıç orta konum
 /* USER CODE END 2 */
+
 
